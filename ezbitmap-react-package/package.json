@@ -1,0 +1,19 @@
+{
+  "name": "@lisperati/ezbitmap-react",
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@lisperati/ezbitmap": "^0.5.10",
+    "babel-preset-react-app": "^10.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2"
+  },
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
+  }  
+}
