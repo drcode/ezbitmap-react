@@ -16,7 +16,6 @@ function App() {
            T|T      
            |||       
             U        
-     
      `}
   </Ezbitmap>;
 }
